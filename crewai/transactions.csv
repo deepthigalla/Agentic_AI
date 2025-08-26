@@ -1,0 +1,6 @@
+transaction_id,amount,time,location,merchant
+001,5000,02:00 AM,New York,TechStore
+002,20,12:00 PM,San Francisco,CoffeeShop
+003,7800,03:30 AM,Dallas,LuxuryWatches
+004,50,11:00 AM,New York,Bakery
+005,9000,01:00 AM,Los Angeles,JewelryMart
