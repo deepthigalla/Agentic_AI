@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Azure OpenAI Demo</title>
+</head>
+<body>
+    <h1>Ask Azure OpenAI</h1>
+    <form action="/ask" method="post">
+        <label for="prompt">Enter your prompt:</label><br>
+        <textarea name="prompt" rows="5" cols="50"></textarea><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    {% if response %}
+        <h2>Response:</h2>
+        <p>{{ response }}</p>
+    {% endif %}
+</body>
+</html>
